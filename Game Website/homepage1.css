@@ -1,0 +1,131 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+	background-color: #589226;
+	color: #8e0f0f;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+    font-family: cursive;
+    font-stretch: expanded;
+}
+/*nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+*/
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+#navcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+main {
+	margin: 20px;
+}
+
+#navcenter {
+    background-color: rgba(104, 125, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#navcenter button {
+    font-family: cursive;
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: rgb(205, 17, 58);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    border-color: transparent;
+
+}
+
+#navcenter button:hover {
+    background-color: rgb(211, 123, 23);
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+    transition: 0.5s;
+}
+
+
+#abt {
+    margin: auto;
+    width: 50%;
+    border: 1px transparent;
+    padding: 10px;
+    background-image: linear-gradient(rgb(128, 19, 0), white);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    font-family:cursive;
+}
+
+.gamespic img {
+    width: 20%;
+    height: 15%;
+    margin: auto;
+    transition: all 2s;
+    margin: 12px;
+}
+
+
+.gamespic {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px 10px;
+    background-color: cornsilk;
+    width: 100%;
+}
+.gamespic > img {
+    width: 290px;
+    height: 185px;
+    transition: all 2s;
+}
+
+.gamespic img:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .gamespic {
+        grid-template-columns: auto;
+    }
+}
+.gamespic {
+    grid-column: 1/ span 2;
+}
+
+footer {
+	background-color: #9587f1;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

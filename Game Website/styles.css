@@ -1,0 +1,64 @@
+html body {
+    background-image: linear-gradient(rgba(134, 133,0, 0.5));
+}
+* {
+    box-sizing: border-box;
+}
+#mywelcome {
+    color: white;
+    text-shadow: 7px 7px 14px black, 0 0 25px rgb(21, 0, 255), 0 0 12px rgb(53, 0, 139);
+    text-align: center;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+#intro {
+    text-align: center;
+    color: orangered;
+}
+
+#myname {
+    color: rgb(53, 0, 139);
+    text-shadow: 3px 3px 7px black, 0 0 25px rgb(21, 0, 255), 0 0 7 darkblue;
+    text-align: center;
+    text-align: center;
+}
+
+#mysid {
+    text-align: center;
+    color: red;
+}
+
+#dis {
+    color: rgba(196, 210, 0, 0.897);
+    text-align: center;
+}
+
+#msc {
+    text-align: center;
+}
+
+#not {
+    text-align: center;
+}
+
+#divbtn {
+    margin-left: 45%;
+    width: 50%;
+    padding: auto;
+    border: 20px transparent ;
+}
+
+#homepg {
+    background-color: rgba(104, 125, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#homepg:hover {
+    background-color: rgb(176, 62, 211);
+    color: rgb(255, 255, 255);
+}

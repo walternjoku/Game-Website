@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+/*body {
+    background-image: linear-gradient(rgb(108, 82, 69));
+}*/
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+
+.navcenter button {
+    font-family: cursive;
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: rgb(109, 101, 103);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    border-color: transparent;
+
+}
+
+.navcenter button:hover {
+    background-color: rgb(211, 123, 23);
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+    transition: 0.5s;
+}
+
+  
+.about {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: justify;
+    float: left;
+    width: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: fuchsia;
+}
+.about p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: coral;
+}
+.assassins {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+/*.assassins img {
+    width: auto;
+    height: auto;
+}*/
+
+footer {
+	background-color: #9587f1;
+	color: #fff;
+	padding: 2px;
+	text-align: center;
+    margin-top: 35%;
+}

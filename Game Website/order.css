@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("street-fighter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(9, 9, 91);
+  }
+  p {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: blue;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4c45a0;
+  }
+  
+  #status-message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+
+.navcenter button {
+    font-family: cursive;
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    border-color: transparent;
+
+}
+
+.navcenter button:hover {
+    background-color: rgb(237, 36, 36);
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+    transition: 0.5s;
+}
